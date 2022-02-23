@@ -13,5 +13,6 @@ namespace parent_learning_resources_webapi.Models
         public int ChildAge { get; set; }
         public string? ChildGrade { get; set; }
         
+        public ChildProfileModel(){}
     }
 }

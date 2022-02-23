@@ -9,12 +9,11 @@ namespace parent_learning_resources_webapi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class UserController : ControllerBase
+    public class WeeklyChallengesController : ControllerBase
     {
-        private readonly UserServices _data;
+        private readonly WeeklyChallengesServices _data;
 
-        public UserController (UserServices dataFromService)
-        {
+        public WeeklyChallengesController(WeeklyChallengesServices dataFromService){
             _data = dataFromService;
         }
     }

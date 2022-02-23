@@ -13,5 +13,7 @@ namespace parent_learning_resources_webapi.Models
         public DateOnly DateEntered { get; set; }
         public string? SpellingWords { get; set; }
         public string? MathProblems { get; set; }
+
+        public WeeklyChallengesModel(){}
     }
 }
